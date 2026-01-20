@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Intramurals Team Checker</title>
+</head>
+<body>
+    <center>
+    <h1>Intramurals Team Checker</h1>
+    <p id="registration">Are you done with the online registration?</p>
+    <input type="checkbox" name="yes">Yes</input>
+    <br>
+    <input type="checkbox" name="no">No</input>
+    <p id="clearance">Do you have a medical clearance from the clinic?</p>
+    <input type="checkbox" name="yes">Yes</input>
+    <br>
+    <input type="checkbox" name="no">No</input>
+    <p>What is your Grade & Section?</p>
+    <select id="level" name="Grade">
+	<option value="Gr7">7</option>
+	<option value="Gr8">8</option>
+	<option value="Gr9">9</option>
+	<option value="Gr10">10</option>
+	</select>
+    <br>
+    <select id="section" name="Section">
+    <option value="E">Emerald</option>
+	<option value="R">Ruby</option>
+	<option value="S">Sapphire</option>
+	<option value="T">Topaz</option>
+    <option value="J">Jade</option>
+	</select>
+    <br><br>
+    <button type="submit" py-click="sign_up">Sign Up</button>
+
+    </center>
+    <script type="py" src="main.py"></script>
+</body>
+</html>
